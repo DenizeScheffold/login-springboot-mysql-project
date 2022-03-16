@@ -10,7 +10,6 @@ import se.denize.loginspringbootproject.email.EmailSender;
 import se.denize.loginspringbootproject.registration.token.ConfirmationToken;
 import se.denize.loginspringbootproject.registration.token.ConfirmationTokenService;
 
-
 import java.time.LocalDateTime;
 
 @Service
