@@ -12,6 +12,7 @@ import se.denize.loginspringbootproject.registration.token.ConfirmationTokenServ
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+
 @Service
 @AllArgsConstructor
 public class AppUserService implements UserDetailsService {
@@ -68,4 +69,7 @@ public class AppUserService implements UserDetailsService {
         return token;
     }
 
+    public int enableAppUser(String email) {
+        return appUserRepository.enableAppUser(email);
+    }
 }
