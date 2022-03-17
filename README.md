@@ -6,6 +6,9 @@ Uses Maildev and Postman.
 While there are still some features to be added, the program is working as it is. 
 
 
+---------------------------------------------------------
+
+
 To run with MailDev:
 
 Install MailDev: https://www.npmjs.com/package/maildev
